@@ -24,7 +24,7 @@ header nav{
 header nav ul {
     display: flex;
     list-style: none;
-    width: 40%;
+    width: 100%;
     justify-content: space-between;
 }
 
