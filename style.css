@@ -3,18 +3,25 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
 body {
+ 
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-    background-color: #00ADB5;
+    background-color: #4E9F3D;
 }
 header {
     display: block;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 50px;
 }
 header nav{
@@ -22,7 +29,7 @@ header nav{
     justify-content: center;
     align-items: center;
     opacity: 70%;
-    background-color: #222831;
+    background-color: #191A19;
     color: #EEEEEE;
     height: 50px;
     width: 100%;
@@ -63,43 +70,25 @@ header nav ul li a:hover{
 .border{
     display: flex;
     height: 10px;
-    background-color: #00ADB5;
+    background-color: #4E9F3D;
 }
 
-.intro{
+.main--content {
+    display: block;
+    width: 100vw;
+    height: 200vh;
+}
+.intro--container{
     display: flex;
-    height: 600px;
+    width: 100vw;
+    height: 100vh;
     color: #EEEEEE;
-    background-color: #222831;
+    /* background-color: #191A19; */
+    background-image: url("https://cdn.discordapp.com/attachments/778920496737681411/1118954761845231657/image.png");
     justify-content: left;
 
-    padding: 20px 20px ;
+    padding: 0 0;
     align-items: center;
-}
-
-
-.title-1 {
-    display: flex;
-    justify-content: left;
-}
-
-.title-2 {
-    display: flex;
-    justify-content: left;
-    color: #00ADB5;
-}
-
-.title-3 {
-    display: flex;
-    justify-content: left;
-}
-
-.about{
-    display: flex;
-    height: 600px;
-    color: #222831;
-    background-color: #526D82;
-    
 }
 
 .img--1 {
@@ -116,6 +105,48 @@ header nav ul li a:hover{
     justify-content: right;
     align-items: center;
 }
+
+.title {
+    width: 50%;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: left;
+}
+
+.title-2 {
+    display: flex;
+    justify-content: left;
+    color: #4E9F3D;
+}
+
+.title-3 {
+    display: flex;
+    justify-content: left;
+}
+
+.about--container{
+    display: flex;
+    height: 100vh;
+    color: #D8E9A8;
+    background-color: #4E9F3D;
+    
+}
+
+.projects--container {
+    display: flex;
+    height: 200vh;
+    color: #D8E9A8;
+    background-color: white;
+}
+
+
+/*
+
+
+
+
 
 .content {
     display: flex;
@@ -139,11 +170,4 @@ header nav ul li a:hover{
     
 }
 
-.project--container {
-    display: flex;
-    height: 600px;
-    color: #222831;
-    background-color: #9DB2BF;
-    flex-direction: column;
-
-}
+ */
