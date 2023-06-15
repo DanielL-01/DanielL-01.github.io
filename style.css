@@ -76,7 +76,8 @@ header nav ul li a:hover{
 .main--content {
     display: block;
     width: 100vw;
-    height: 200vh;
+    height: 500vh;
+    background-color: #191A19;
 }
 .intro--container{
     display: flex;
@@ -84,7 +85,7 @@ header nav ul li a:hover{
     height: 100vh;
     color: #EEEEEE;
     /* background-color: #191A19; */
-    background-image: url("https://cdn.discordapp.com/attachments/778920496737681411/1118954761845231657/image.png");
+    background-repeat: no-repeat;
     justify-content: left;
 
     padding: 0 0;
@@ -107,56 +108,51 @@ header nav ul li a:hover{
 }
 
 .title {
-    width: 50%;
+    width: 100%;
 }
 
 .title-1 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .title-2 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     color: #4E9F3D;
 }
 
 .title-3 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .about--container{
     display: flex;
     height: 100vh;
+    flex-direction: row;
     color: #D8E9A8;
-    background-color: #4E9F3D;
-    
+
+    justify-content: space-between;
 }
 
-.projects--container {
+.spo {
     display: flex;
-    height: 200vh;
-    color: #D8E9A8;
-    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
 }
-
-
-/*
-
-
-
-
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    margin: auto 20px;
-    width: 50%;
+    margin: 0 20px;
+    width: 40%;
 
 }
+
 
 .title--about{
 
@@ -170,4 +166,88 @@ header nav ul li a:hover{
     
 }
 
- */
+.projects--container {
+    display: flex;
+    height: 200vh;
+    color: #D8E9A8;
+  
+}
+
+.contacts--container {
+    display: flex;
+    height: 100vh;
+    color: #D8E9A8;
+    background-image: url("https://cdn.discordapp.com/attachments/778920496737681411/1118954761845231657/image.png");
+}
+
+.contacts--content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;  
+}
+
+.icons {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.icons a{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.instagram {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4E9F3D;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.github {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4E9F3D;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.email {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4E9F3D;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.phone {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4E9F3D;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
