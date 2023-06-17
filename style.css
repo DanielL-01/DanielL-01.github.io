@@ -123,6 +123,7 @@ header nav ul li.clicked{
 .title-1 {
     display: flex;
     justify-content: center;
+    color: #D8E9A8;
 }
 
 .title-2 {
@@ -134,6 +135,7 @@ header nav ul li.clicked{
 .title-3 {
     display: flex;
     justify-content: center;
+    color: #D8E9A8;
 }
 
 .about--container{
