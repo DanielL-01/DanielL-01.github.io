@@ -107,26 +107,12 @@ header nav ul li.clicked{
     width: 100vw;
     height: 100vh;
     color: #EEEEEE;
-    /* background-color: #191A19; */
+    background: url("https://cdn.discordapp.com/attachments/778920496737681411/1119651597149011980/image.png");
     background-repeat: no-repeat;
+    background-size: cover;
     justify-content: left;
 
     padding: 0 0;
-    align-items: center;
-}
-
-.img--1 {
-
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-}
-
-.img--1 img {
-    
-    height: 400px;
-    justify-content: right;
     align-items: center;
 }
 
@@ -184,7 +170,7 @@ header nav ul li.clicked{
 }
 
 .paragraph--about p{
-    font-size: 35px;
+    font-size: 1.8rem;
     margin: 20px 0;
     
 }
@@ -534,79 +520,39 @@ header nav ul li.clicked{
         height: 15px;
         justify-content: space-between;
     }
-    
-    header nav ul.menu-nav {
+    header nav {
+        justify-content: space-between;
+    }
+
+    header nav ul {
         flex-direction: column;
         justify-content: space-evenly;
         position: absolute;
-        background-color: rgba(133, 47, 13, 0.8);
+        background-color: #191A19;
         height: 100vh;
         top: 0;
-        right: 0;
+        right: 100%;
         margin-top: 50px;
         padding-left: 10px;
         transform: translateX(100%);
         transition: all 0.5s linear;
         
     }
-    header nav ul.menu-nav.clicked {
+    header nav ul.clicked {
         transform: translateX(0);
     }
 
-
-
-    /* .navbar .navbar-nav {
-      position: absolute;
-      top: 100%;
-      right: -100%;
-      background-color: #cbbdff;
-      width: 30rem;
-      height: 100vh;
-      transition: 0.3s;
-      opacity: 100%;
-      border-top: 1px solid #b4a0ff;
+    .paragraph--about p{
+        font-size: 1rem;
     }
-  
-    .navbar .navbar-nav.active {
-      right: 0;
+    .projects h1 {
+        font-size: 3rem;
+        margin-top: 20px;
     }
-  
-    .navbar .navbar-nav a {
-      color: var(--font-default);
-      display: block;
-      margin: 1.5rem;
-      padding: 0.5rem;
-      font-size: 2rem;
+    
+    .projects p {
+        font-size: 1rem;
+        margin: 20px 5px 5px 5px;
+        text-align: justify;
     }
-  
-    .navbar .navbar-nav a::after {
-      transform-origin: 0 0;
-    }
-  
-    .navbar .navbar-nav a:hover::after {
-      transform: scaleX(0.2);
-    }
-  
-    .about .row {
-      flex-wrap: wrap;
-    }
-  
-    .about .row .about-img img {
-      height: 24rem;
-      object-fit: cover;
-      object-position: center;
-    }
-  
-    .about .row .content h3 {
-      margin-top: 1rem;
-      font-size: 2rem;
-    }
-  
-    .about .row .content p {
-      font-size: 1.6rem;
-    }
-  
-    .project h3 {
-      font-size: 1.5rem;
-    } */
   }
